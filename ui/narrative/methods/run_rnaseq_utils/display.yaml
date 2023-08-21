@@ -1,0 +1,36 @@
+#
+# define display information
+#
+name: Get Count Matrix From Expression Set
+
+tooltip: |
+    Get Count Matrix
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar apps that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            [app1, app2]
+        next:
+            [app3, app4]
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    expressionset_ref :
+        ui-name : |
+            Expression set
+        short-hint : |
+            Expression set
+        long-hint  : |
+            Expression set
+
+description : |
+    <p> Download Count Matrix </p>
