@@ -73,11 +73,7 @@ class rnaseq_utilsTest(unittest.TestCase):
 #        }
         """
         params =  {'workspace_name': "pranjan77:narrative_1689871898639",
-                    "expressionset_ref": "152777/373/1",
-                    "input_type": "genes",
-                    "diff_expression_obj_name": "test_de",
-                     "run_all_combinations": 1,
-                     "condition_pairs": []
+                    "expressionset_ref": "152777/373/1"
         }
 
                 
